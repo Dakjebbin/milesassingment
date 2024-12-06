@@ -39,8 +39,8 @@ const Contact = () => {
           ></iframe>
         </div>
 
-        <div>
-          <h3 className="social-media-heading">FOLLOW US ON SOCIAL MEDIA</h3>
+        <div className='social'>
+         
           <div className="social-media-icons">
             <a href="">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -58,6 +58,7 @@ const Contact = () => {
               </svg>
             </a>
           </div>
+          <h3 className="social-media-heading">FOLLOW US ON SOCIAL MEDIA</h3>
         </div>
       </section>
       <p>
