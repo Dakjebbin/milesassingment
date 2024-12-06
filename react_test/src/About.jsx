@@ -18,10 +18,7 @@ const About = () => {
     "Innovating the Future" represents a forward-thinking mindset dedicated to shaping 
     tomorrow through creativity, technology, and progress. It embodies the belief that 
     continuous innovation is the key to overcoming challenges and driving societal, technological,
-     and environmental transformation. This concept highlights the importance of pushing boundaries,
-      embracing new ideas, and leveraging advancements to build a better and more sustainable future. 
-      With an unwavering commitment to growth, "Innovating the Future" focuses on finding solutions that
-       enhance lives, create opportunities, and inspire positive change on a global scale.
+     and environmental transformation.
 </p>
                 </div>
             </div>

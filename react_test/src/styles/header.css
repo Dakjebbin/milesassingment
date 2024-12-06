@@ -110,6 +110,8 @@ margin-right: 40px;
   display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
+    width: 100%;
   margin-top: 50px;
 }
 
@@ -119,11 +121,22 @@ width: 80%;
 }
 
 .about-image{
-    width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex: 1;
+    max-width: 500px;
+
+}
+
+.innovate{
+  flex: 1;
+  max-width: 500px;
 }
 
 .about-image img{
     border-radius: 10px;
+    width: 100%;
 }
 .about-header{
     text-align: center;
@@ -135,14 +148,12 @@ width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
-    width: 600px;
+    width: 500px;
     font-size: 2vw;
     font-family: "Playfair Display", serif;
     line-height: 1.6;
 }
-.about-image img{
-    width: 100%;
-}
+
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -494,13 +505,13 @@ footer{
 }
 
 
-.about-image img{
+/* .about-image img{
   margin: auto;
  
-}
+} */
 
 .innovate p{
-  font-size: 2vw;
+  font-size: 3vw;
   max-width: 450px;
   text-align: center;
 }
@@ -518,17 +529,17 @@ footer{
   display: flex;
   flex-wrap: wrap;
 }
-
+/* 
 .about-image img{
   margin: auto;
   width: 100%;
  
-}
+} */
 
-.about-image{
+/* .about-image{
   display: flex;
   width: 400px;
-}
+} */
 
 }
 
@@ -543,19 +554,19 @@ footer{
   max-width: 300px;
   text-align: center;
 }
-  .about-image img{
+  /* .about-image img{
    width: 100%;
     height: auto;
-  }
+  } */
   
-  .about-image{
+  /* .about-image{
     display: flex;
       justify-content: center;
       align-items: center;
-      /* height: 100vh; */
+       height: 100vh;
       margin-bottom: 10px;
      max-width: 50%;
-  }
+  } */
   
   }
 
@@ -580,7 +591,12 @@ footer{
     .about-section {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        margin-top: 50px;
+        /* justify-content: space-between;
+        margin-top: 50px; */
+    }
+
+    .about-section p{
+      margin-left: 0px;
+      text-align: justify;
     }
 }
