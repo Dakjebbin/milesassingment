@@ -120,7 +120,6 @@ margin: auto;
 width: 80%;
 display: flex;
 flex-direction: column;
-
 align-items: center;
 }
 
@@ -135,7 +134,7 @@ align-items: center;
 
 .innovate{
   flex: 1;
-  max-width: 500px;
+ 
 }
 
 .about-image img{
@@ -152,7 +151,7 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
-    width: 500px;
+    
     font-size: 2vw;
     font-family: "Playfair Display", serif;
     line-height: 1.6;
@@ -554,7 +553,7 @@ footer{
 
   
 .innovate p{
-  font-size: 2vw;
+  font-size: 2.2vw;
   max-width: 300px;
   text-align: center;
 }
@@ -603,4 +602,14 @@ footer{
       margin-left: 0px;
       text-align: justify;
     }
+
+    
+.section-2{
+  margin: auto;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
 }
